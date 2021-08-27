@@ -57,6 +57,7 @@ nav ul li:target {
 section > h2 {
   font-family: monospace;
 }
+
 @media screen and (min-width: 700px) {
   section > h2 {
     font-size: 2em;
@@ -130,6 +131,7 @@ section > h2 {
   background-color: #d9b08c;
 }
 #skills h2 {
+  color: #116466;
   margin-bottom: 1.5em;
 }
 #skills i {
@@ -155,6 +157,31 @@ section > h2 {
 #projects {
   background-color: white;
   padding-top: 4rem;
+}
+#projects h2::before,
+#projects h2::after {
+  display: inline-block;
+  content: "";
+  border-top: 2px solid black;
+  width: 5rem;
+  margin: 0 1rem;
+  transform: translateY(-0.3rem);
+}
+@media screen and (max-width: 500px) {
+  #projects h2::before,
+#projects h2::after {
+    width: 2.5rem;
+    margin: 0 0.6rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  #projects h2::before,
+#projects h2::after {
+    width: 0;
+  }
+}
+#projects h3 {
+  font-size: 1.5em;
 }
 #projects .project {
   display: flex;
@@ -234,7 +261,8 @@ section > h2 {
   height: 90vh;
   max-height: 610px;
 }
-#projects .task, #projects .portfolio {
+#projects .task,
+#projects .portfolio {
   height: 80vh;
   max-height: 533px;
 }
@@ -261,7 +289,8 @@ section > h2 {
   #projects .game {
     max-height: 716px;
   }
-  #projects .task, #projects .portfolio {
+  #projects .task,
+#projects .portfolio {
     max-height: 650px;
   }
   #projects .quote,
@@ -297,7 +326,7 @@ section > h2 {
     align-items: flex-start;
     text-align: left;
   }
-  #projects .project .description h2,
+  #projects .project .description h3,
 #projects .project .description p,
 #projects .project .description div:not(.small) {
     margin-left: 70px;
@@ -318,7 +347,7 @@ section > h2 {
     padding-right: 0;
     padding-left: 0;
   }
-  #projects .flex-wrapper .description h2,
+  #projects .flex-wrapper .description h3,
 #projects .flex-wrapper .description p,
 #projects .flex-wrapper .description .buttons {
     margin-left: 0 !important;
@@ -337,10 +366,10 @@ section > h2 {
   color: #96a19e;
 }
 #contact h2 {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 #contact p {
-  width: 70%;
+  width: 90%;
   font-size: 1.2em;
   letter-spacing: 1px;
   border-top: 1px solid #96a19e2d;
