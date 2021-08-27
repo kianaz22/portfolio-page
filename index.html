@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/7ece4321d0.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+  <nav id="navbar" class="">
+    <ul>
+      <li><a href="#welcome-section">About</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li> <a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="welcome-section">
+    <img src="pics/picture.png">
+    <h1>Hey, I'm Kiana</h1>
+    <p>A front-end developer</p>
+    <button id='email-button'>Email Me</button>
+    <p class="email">kiana.zrb@gmail.com</p>
+  </section>
+
+  <section id="skills">
+    <h2><span class="number"></span> My Skills</h2>
+    <i class="fab fa-3x fa-html5"></i>
+    <i class="fab fa-3x fa-css3"></i>
+    <i class="fab fa-3x fa-js-square"></i>
+    <i class="fab fa-3x fa-react"></i>
+  </section>
+
+  <section id="projects">
+    <h2><span class="number"></span> Some Things I’ve Built<span class="number"></span></h2>
+    <div class="project-container">
+
+      <div class="project weather">
+        <div>
+          <img src="pics/weather.png">
+        </div>
+        <div class="description">
+          <h2>Weather App
+            <div class="small">Responsive</div>
+          </h2>
+          <p>Built with React & SASS<br />
+            Libraries : moment, chart.js<br />
+            APIs : WeatherAPI.com, weatherbit.io</p>
+          <p class="design">Design inspired by <a
+              href="https://dribbble.com/shots/14783379-Weather-Forecast-Exploration">Rijal Ajji
+              Jatnika
+            </a></p>
+          <div class="buttons">
+            <a href="https://github.com/kianaz22/react-weather-app">View Code</a>
+            <a href="https://kianaz22.github.io/react-weather-app/">Visit Site</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project game">
+        <div>
+          <img src="pics/game-light.png">
+        </div>
+        <div class="description">
+          <h2>Memory Game</h2>
+          <p>Built with React<br />
+            Other technologies : Material-UI
+          </p>
+          <p class="large-visible">Find all matching cards in 60 seconds!</br>
+            Uses local storage to keep top score.
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/kianaz22/react-memory-game">View Code</a>
+            <a href="https://kianaz22.github.io/react-memory-game/">Visit Site</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project task">
+        <div>
+          <img src="pics/task.png">
+        </div>
+        <div class="description">
+          <h2>Task Tracker<div class="small">Responsive</div>
+          </h2>
+          <p>Built with React & SASS<br />
+            Other technologies : React-icons
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/kianaz22/task-tracker">View Code</a>
+            <a href="https://kianaz22.github.io/task-tracker/">Visit Site</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project portfolio">
+        <div>
+          <img src="pics/portfolio.png">
+        </div>
+        <div class="description">
+          <h2>Portfolio Page<div class="small">Responsive</div>
+          </h2>
+          <p>Built with SASS & Javascript<br />
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/kianaz22/portfolio">View Code</a>
+            <a href="https://kianaz22.github.io/portfolio/">Visit Site</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-wrapper">
+
+        <div class="project calc">
+          <div>
+            <img src="pics/calc.png">
+          </div>
+          <div class="description">
+            <h2>Calculator</h2>
+            <p>Built with HTML, CSS, Javascript<br />
+
+            <div class="buttons">
+              <a href="https://github.com/kianaz22/js-calculator">View Code</a>
+              <a href="https://kianaz22.github.io/js-calculator/">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project quote">
+          <div>
+            <img src="pics/quote-light.png">
+          </div>
+          <div class="description">
+            <h2>Quote Generator</h2>
+            <p>Built with React<br />
+              API: type.fit</p>
+            <p class="large-visible">Generates a random quote that can be shared on twitter</p>
+            <div class="buttons">
+              <a href="https://github.com/kianaz22/quote-generator">View Code</a>
+              <a href="https://kianaz22.github.io/quote-generator/">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2><span class="number"></span> What’s Next?</h2>
+    <p>Get In Touch ...</p>
+    <div>
+      <a href="#https://github.com/kianaz22"><i class="fab fa-2x fa-linkedin"></i>
+      </a>
+      <a href="#https://github.com/kianaz22"><i class="fab fa-2x fa-github"></i>
+      </a>
+      <a href="mailto:kiana.zrb@gmail.com"><i class="fa fa-2x fa-envelope"></i>
+      </a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
