@@ -264,6 +264,7 @@ section > h2 {
           color: white;
         }
       }
+    
     }
   }
   .weather {
@@ -409,6 +410,6 @@ section > h2 {
     transition: transform 0.1s ease-in;
   }
   a:hover {
-    transform: scale(1.2);
+    color: white;
   }
 }

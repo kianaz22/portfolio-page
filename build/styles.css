@@ -392,7 +392,7 @@ section > h2 {
   transition: transform 0.1s ease-in;
 }
 #contact a:hover {
-  transform: scale(1.2);
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
