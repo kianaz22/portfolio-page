@@ -271,14 +271,6 @@ section > h2 {
   height: 80vh;
   max-height: 533px;
 }
-#projects .calc {
-  height: 85vh;
-  max-height: 567px;
-}
-#projects .quote {
-  height: 88vh;
-  max-height: 587px;
-}
 @media (min-width: 700px) and (max-width: 990px) {
   #projects .project {
     padding-top: 50px;
@@ -294,28 +286,8 @@ section > h2 {
   #projects .game {
     max-height: 716px;
   }
-  #projects .task,
-#projects .portfolio {
+  #projects .task {
     max-height: 650px;
-  }
-  #projects .quote,
-#projects .calc {
-    max-height: 670px;
-  }
-  #projects .flex-wrapper {
-    border-top: 1px solid #2c35316e;
-    display: flex;
-    justify-content: center;
-  }
-  #projects .flex-wrapper .project {
-    border-top: none;
-    padding-right: 0;
-    padding-left: 0;
-  }
-  #projects .flex-wrapper .description h2,
-#projects .flex-wrapper .description p,
-#projects .flex-wrapper .description .buttons {
-    margin-left: 0 !important;
   }
 }
 @media screen and (min-width: 990px) {
