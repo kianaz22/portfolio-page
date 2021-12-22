@@ -145,7 +145,7 @@ section > h2 {
     color: $green;
     margin-bottom: 1.5em;
   }
-  .icons-container{
+  .icons-container {
     margin: 0 auto;
     max-width: 400px;
     display: flex;
@@ -187,7 +187,7 @@ section > h2 {
     h2::before,
     h2::after {
       width: 30px;
-      margin: 0 .6rem;
+      margin: 0 0.6rem;
     }
   }
   @media screen and (max-width: 350px) {
@@ -206,7 +206,6 @@ section > h2 {
     padding: 30px 6vw 15px 6vw;
     margin-bottom: 2rem;
     > div {
-      // border: 1px solid black;
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -264,7 +263,6 @@ section > h2 {
           color: white;
         }
       }
-    
     }
   }
   .weather {
@@ -308,30 +306,8 @@ section > h2 {
     .game {
       max-height: 716px;
     }
-    .task,
-    .portfolio {
+    .task {
       max-height: 650px;
-    }
-    .quote,
-    .calc {
-      max-height: 670px;
-    }
-    .flex-wrapper {
-      border-top: 1px solid #2c35316e;
-      display: flex;
-      justify-content: center;
-      .project {
-        border-top: none;
-        padding-right: 0;
-        padding-left: 0;
-      }
-      .description {
-        h2,
-        p,
-        .buttons {
-          margin-left: 0 !important;
-        }
-      }
     }
   }
   @media screen and (min-width: 990px) {
@@ -397,7 +373,7 @@ section > h2 {
     letter-spacing: 1px;
     border-top: 1px solid #96a19e2d;
     border-bottom: 1px solid #96a19e2d;
-    padding: 15px ;
+    padding: 15px;
   }
   div {
     display: flex;
